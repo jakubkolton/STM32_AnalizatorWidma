@@ -7,7 +7,7 @@ Sygnał podany na ADC dołączone do DMA poddany jest FFT, po czym wyświetlony 
 Trwają prace nad rozszerzeniami, m.in. zapisem zrzutów ekranu i informacji o widmie do plików na karcie SD; interfejsem sterowanym joystickiem; wykorzystaniem zjawiska aliasingu do badania sygnałów wąskopasmowych.
 
 ## Schemat układu:
-![](./AnalizatorWidma.PNG?raw=true "Schemat układu")
+![](./AnalizatorWidma.png?raw=true "Schemat układu")
 
 ## Zastosowane elementy:
 
@@ -19,11 +19,16 @@ Trwają prace nad rozszerzeniami, m.in. zapisem zrzutów ekranu i informacji o w
 ## Wykorzystano zewnętrzne biblioteki: 
 
 - CMSIS DSP: 
-    link;
-    wersja z dnia: 21.03.2021
-- // ekran: portowana
-    link;
-    wersja z dnia: 21.03.2021
+    - https://github.com/ARM-software/CMSIS_5;
+    - wersja z dnia: 21.03.2021
+- Adafruit_SSD1306:
+    - Jest to biblioteka pisana pod Arduino. Wykonano jej częściowy port.
+    - https://github.com/adafruit/Adafruit_SSD1306;
+    - wersja z dnia: 21.03.2021
+ - Adafruit_GFX:
+    - Jest to biblioteka pisana pod Arduino. Wykonano jej częściowy port.
+    - https://github.com/adafruit/Adafruit_SSD1306;
+    - wersja z dnia: 21.03.2021   
 
 
 
