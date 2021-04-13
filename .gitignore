@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+/Analizator_Widma_F411/Debug/
+/Analizator_Widma_F411/*Debug.launch
 
 # Object files
 *.o
